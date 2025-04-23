@@ -1,0 +1,114 @@
+/* App.css */
+
+.contenedor {
+  padding: 100px;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+  text-align: left; /* Asegura que el título se alinee a la izquierda */
+}
+
+.table thead {
+  background-color: #00ff73;
+  color: white;
+  text-align: center;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.table tbody tr {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn-group .btn {
+  margin: 0 5px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+form .form-control {
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+form .form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Títulos */
+.modal-title, h1 {
+  font-weight: 600;
+  text-align: center;
+}
+/* Fondo de la página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #8ea4b9;
+}
